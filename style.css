@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+	
+	
+	background: rgba(196,196,196,1);
+background: -moz-linear-gradient(left, rgba(196,196,196,1) 0%, rgba(191,191,191,1) 44%, rgba(222,220,218,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(196,196,196,1)), color-stop(44%, rgba(191,191,191,1)), color-stop(100%, rgba(222,220,218,1)));
+background: -webkit-linear-gradient(left, rgba(196,196,196,1) 0%, rgba(191,191,191,1) 44%, rgba(222,220,218,1) 100%);
+background: -o-linear-gradient(left, rgba(196,196,196,1) 0%, rgba(191,191,191,1) 44%, rgba(222,220,218,1) 100%);
+background: -ms-linear-gradient(left, rgba(196,196,196,1) 0%, rgba(191,191,191,1) 44%, rgba(222,220,218,1) 100%);
+background: linear-gradient(to right, rgba(196,196,196,1) 0%, rgba(191,191,191,1) 44%, rgba(222,220,218,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#dedcda', GradientType=1 );
+}
+
+#topHeader
+{
+	width:100%;
+	height:auto;
+	-webkit-box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	-moz-box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	background-color:rgba(59,59,59,1.00);
+	font-family:"Trebuchet MS";
+	font-size:24px;
+	color:rgba(215,215,215,1.00);
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 0px;
+}
+.tag
+{
+	font-family:"Segoe UI";
+	color:rgba(253,146,40,1.00);
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.SubHead
+{
+	font-family:"Segoe UI";
+	color:rgba(207,103,0,1.00);
+	font-size:18px;
+	font-weight:bold;
+}
+
+#content
+{
+
+	width:500px;
+	height:auto;
+	background-color:transparent;
+	border:5px solid rgba(107,107,107,1.00);
+	border-radius:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#table {
+ display:table;
+ padding:10px 10px;  
+}
+div.tr {
+  display:table-row;  
+}
+div.td {
+    display:table-cell;   
+    width:inherit;
+	 padding:3px 3px; 
+	
+}
+
+div.tdd{
+	text-align:center;
+	caption-side: top;
+
+}
+
+div.tddd{
+	text-align:center;
+	padding:0px 5px;
+	caption-side: top;
+
+}
+
+label
+{
+	font-family:"Segoe UI";
+	color:rgba(55,55,55,1.00);
+	font-size:16px;
+}
+
+input[type='text'], input[type='password']
+{
+	font-family:"Trebuchet MS";
+	font-size:15px;
+	background-color:transparent;
+	color:rgba(41,41,41,1.00);
+	padding:0px 3px;
+	border:1px solid rgba(107,107,107,1.00);
+
+}
+
+input[type='submit'], input[type='button']
+{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	background-color:transparent;
+	color:rgba(41,41,41,1.00);
+	padding:2px;
+	border:1px solid rgba(107,107,107,1.00);
+	cursor:pointer;
+
+}
+
+input[type='submit']:hover, input[type='button']:hover
+{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	background-color:rgba(41,41,41,1.00);;
+	color:rgba(255,255,255,1.00);
+	padding:2px;
+	border:1px solid rgba(107,107,107,1.00);
+	cursor:pointer;
+
+}
+
+a.link:link, a.link:active, a.link:visited
+{
+	font-family:"Trebuchet MS";
+	color:rgba(41,41,41,1.00);
+	font-size:16px;
+	text-decoration:none;
+}
+a.link:hover
+{
+	font-family:"Trebuchet MS";
+	color:rgba(255,0,4,1.00);
+	font-size:16px;
+	cursor:pointer;
+	text-decoration:none;
+}
+	
+
+select
+{
+	font-family:"Trebuchet MS";
+	font-size:12px;
+	background-color:rgba(181,181,181,1.00);
+	color:rgba(41,41,41,1.00);
+	padding:0px 3px;
+	border:1px solid rgba(107,107,107,1.00);
+
+}
+
+.text
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:rgba(77,38,5,1.00);
+	
+}
+
+a.button:link, a.button:active, a.button:visited 
+{
+	font-family:"Segoe UI";
+	text-decoration:none;
+	color:rgba(54,54,54,1.00);
+	padding:8px;
+	background-color:transparent;
+	border:2px solid rgba(63,63,63,1.00);
+}
+a.button:hover
+{
+	font-family:"Segoe UI";
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	padding:8px;
+	background-color:rgba(63,63,63,1.00);;
+	border:2px solid rgba(255,255,255,1.00);
+}
+table, tr, td
+{
+	border:1px solid rgba(0,0,0,1.00);
+	border-collapse:collapse;
+	font-family:"Trebuchet MS";
+	font-size:14px;
+}
